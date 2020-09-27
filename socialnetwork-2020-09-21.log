@@ -1,0 +1,311 @@
+2020-09-21 17:46:30 INFO  LoginFilter:131 - Logger here! btnAction at Filter :null
+2020-09-21 17:47:01 INFO  LoginFilter:131 - Logger here! btnAction at Filter :Login now!
+2020-09-21 17:47:33 INFO  LoginFilter:131 - Logger here! btnAction at Filter :null
+2020-09-21 17:47:36 INFO  LoginFilter:131 - Logger here! btnAction at Filter :Search Now!
+2020-09-21 17:47:37 INFO  LoginFilter:131 - Logger here! btnAction at Filter :View Post
+2020-09-21 20:39:07 INFO  LoginFilter:131 - Logger here! btnAction at Filter :null
+2020-09-21 20:39:07 INFO  DispatchController:55 - DispatchController is called
+2020-09-21 20:39:07 INFO  DispatchController:59 - button in dispatchController :null
+2020-09-21 20:39:07 INFO  FirstTimeServlet:49 - FirstTimeServlet is called
+2020-09-21 20:41:35 INFO  LoginFilter:131 - Logger here! btnAction at Filter :Login now!
+2020-09-21 20:41:35 INFO  DispatchController:55 - DispatchController is called
+2020-09-21 20:41:35 INFO  DispatchController:59 - button in dispatchController :Login now!
+2020-09-21 20:41:35 INFO  LoginServlet:53 - LoginServlet is called
+2020-09-21 20:41:36 INFO  GetMyPostsServlet:49 - GetMyPostsServlet is called
+2020-09-21 20:41:41 INFO  LoginFilter:131 - Logger here! btnAction at Filter :View Post
+2020-09-21 20:41:41 INFO  DispatchController:55 - DispatchController is called
+2020-09-21 20:41:41 INFO  DispatchController:59 - button in dispatchController :View Post
+2020-09-21 20:41:41 INFO  ViewPostServlet:46 - ViewPostServlet is called
+2020-09-21 20:41:56 INFO  LoginFilter:131 - Logger here! btnAction at Filter :Search Now!
+2020-09-21 20:41:56 INFO  DispatchController:55 - DispatchController is called
+2020-09-21 20:41:56 INFO  DispatchController:59 - button in dispatchController :Search Now!
+2020-09-21 20:41:56 INFO  SearchServlet:47 - SearchServlet is called
+2020-09-21 20:41:56 INFO  SearchServlet:56 - Search Value : c
+2020-09-21 20:41:58 INFO  LoginFilter:131 - Logger here! btnAction at Filter :View Post
+2020-09-21 20:41:58 INFO  DispatchController:55 - DispatchController is called
+2020-09-21 20:41:58 INFO  DispatchController:59 - button in dispatchController :View Post
+2020-09-21 20:41:58 INFO  ViewPostServlet:46 - ViewPostServlet is called
+2020-09-21 20:42:05 INFO  LoginFilter:131 - Logger here! btnAction at Filter :View Post
+2020-09-21 20:42:05 INFO  DispatchController:55 - DispatchController is called
+2020-09-21 20:42:05 INFO  DispatchController:59 - button in dispatchController :View Post
+2020-09-21 20:42:05 INFO  ViewPostServlet:46 - ViewPostServlet is called
+2020-09-21 20:42:32 INFO  LoginFilter:131 - Logger here! btnAction at Filter :null
+2020-09-21 20:42:32 INFO  DispatchController:55 - DispatchController is called
+2020-09-21 20:42:32 INFO  DispatchController:59 - button in dispatchController :null
+2020-09-21 20:42:32 INFO  FirstTimeServlet:49 - FirstTimeServlet is called
+2020-09-21 20:42:32 INFO  FirstTimeServlet:73 - FirstTime - Has User
+2020-09-21 20:42:32 INFO  GetMyPostsServlet:49 - GetMyPostsServlet is called
+2020-09-21 20:42:46 INFO  LoginFilter:131 - Logger here! btnAction at Filter :View Post
+2020-09-21 20:42:46 INFO  DispatchController:55 - DispatchController is called
+2020-09-21 20:42:46 INFO  DispatchController:59 - button in dispatchController :View Post
+2020-09-21 20:42:46 INFO  ViewPostServlet:46 - ViewPostServlet is called
+2020-09-21 20:43:08 INFO  LoginFilter:131 - Logger here! btnAction at Filter :Search Now!
+2020-09-21 20:43:08 INFO  DispatchController:55 - DispatchController is called
+2020-09-21 20:43:08 INFO  DispatchController:59 - button in dispatchController :Search Now!
+2020-09-21 20:43:08 INFO  SearchServlet:47 - SearchServlet is called
+2020-09-21 20:43:08 INFO  GetMyPostsServlet:49 - GetMyPostsServlet is called
+2020-09-21 20:43:10 INFO  LoginFilter:131 - Logger here! btnAction at Filter :View Post
+2020-09-21 20:43:10 INFO  DispatchController:55 - DispatchController is called
+2020-09-21 20:43:10 INFO  DispatchController:59 - button in dispatchController :View Post
+2020-09-21 20:43:10 INFO  ViewPostServlet:46 - ViewPostServlet is called
+2020-09-21 21:05:56 INFO  LoginFilter:131 - Logger here! btnAction at Filter :View Post
+2020-09-21 21:05:56 INFO  DispatchController:55 - DispatchController is called
+2020-09-21 21:05:56 INFO  DispatchController:59 - button in dispatchController :View Post
+2020-09-21 21:05:56 INFO  ViewPostServlet:46 - ViewPostServlet is called
+2020-09-21 21:06:04 INFO  LoginFilter:131 - Logger here! btnAction at Filter :null
+2020-09-21 21:06:04 INFO  DispatchController:55 - DispatchController is called
+2020-09-21 21:06:04 INFO  DispatchController:59 - button in dispatchController :null
+2020-09-21 21:06:04 INFO  FirstTimeServlet:49 - FirstTimeServlet is called
+2020-09-21 21:06:11 INFO  LoginFilter:131 - Logger here! btnAction at Filter :View Post
+2020-09-21 21:06:11 INFO  DispatchController:55 - DispatchController is called
+2020-09-21 21:06:11 INFO  DispatchController:59 - button in dispatchController :View Post
+2020-09-21 21:06:11 INFO  ViewPostServlet:46 - ViewPostServlet is called
+2020-09-21 21:06:13 INFO  LoginFilter:131 - Logger here! btnAction at Filter :View Post
+2020-09-21 21:06:13 INFO  DispatchController:55 - DispatchController is called
+2020-09-21 21:06:13 INFO  DispatchController:59 - button in dispatchController :View Post
+2020-09-21 21:06:13 INFO  ViewPostServlet:46 - ViewPostServlet is called
+2020-09-21 21:06:15 INFO  LoginFilter:131 - Logger here! btnAction at Filter :Get my post
+2020-09-21 21:06:15 INFO  DispatchController:55 - DispatchController is called
+2020-09-21 21:06:15 INFO  DispatchController:59 - button in dispatchController :Get my post
+2020-09-21 21:06:15 INFO  GetMyPostsServlet:49 - GetMyPostsServlet is called
+2020-09-21 21:06:21 INFO  LoginFilter:131 - Logger here! btnAction at Filter :View Post
+2020-09-21 21:06:21 INFO  DispatchController:55 - DispatchController is called
+2020-09-21 21:06:21 INFO  DispatchController:59 - button in dispatchController :View Post
+2020-09-21 21:06:21 INFO  ViewPostServlet:46 - ViewPostServlet is called
+2020-09-21 21:06:25 INFO  LoginFilter:131 - Logger here! btnAction at Filter :View Post
+2020-09-21 21:06:25 INFO  DispatchController:55 - DispatchController is called
+2020-09-21 21:06:25 INFO  DispatchController:59 - button in dispatchController :View Post
+2020-09-21 21:06:25 INFO  ViewPostServlet:46 - ViewPostServlet is called
+2020-09-21 21:11:01 INFO  LoginFilter:131 - Logger here! btnAction at Filter :Search Now!
+2020-09-21 21:11:01 INFO  DispatchController:55 - DispatchController is called
+2020-09-21 21:11:01 INFO  DispatchController:59 - button in dispatchController :Search Now!
+2020-09-21 21:11:01 INFO  SearchServlet:47 - SearchServlet is called
+2020-09-21 21:11:01 INFO  GetMyPostsServlet:49 - GetMyPostsServlet is called
+2020-09-21 21:11:02 INFO  LoginFilter:131 - Logger here! btnAction at Filter :View Post
+2020-09-21 21:11:02 INFO  DispatchController:55 - DispatchController is called
+2020-09-21 21:11:02 INFO  DispatchController:59 - button in dispatchController :View Post
+2020-09-21 21:11:02 INFO  ViewPostServlet:46 - ViewPostServlet is called
+2020-09-21 23:21:23 INFO  LoginFilter:131 - Logger here! btnAction at Filter :null
+2020-09-21 23:21:23 INFO  DispatchController:55 - DispatchController is called
+2020-09-21 23:21:23 INFO  DispatchController:59 - button in dispatchController :null
+2020-09-21 23:21:23 INFO  FirstTimeServlet:49 - FirstTimeServlet is called
+2020-09-21 23:21:33 INFO  LoginFilter:131 - Logger here! btnAction at Filter :Login now!
+2020-09-21 23:21:33 INFO  DispatchController:55 - DispatchController is called
+2020-09-21 23:21:33 INFO  DispatchController:59 - button in dispatchController :Login now!
+2020-09-21 23:21:33 INFO  LoginServlet:53 - LoginServlet is called
+2020-09-21 23:21:33 INFO  GetMyPostsServlet:49 - GetMyPostsServlet is called
+2020-09-21 23:21:35 INFO  LoginFilter:131 - Logger here! btnAction at Filter :View Post
+2020-09-21 23:21:35 INFO  DispatchController:55 - DispatchController is called
+2020-09-21 23:21:35 INFO  DispatchController:59 - button in dispatchController :View Post
+2020-09-21 23:21:35 INFO  ViewPostServlet:47 - ViewPostServlet is called
+2020-09-21 23:21:35 INFO  GetCommentServlet:45 - GetCommentServlet is called
+2020-09-21 23:21:35 ERROR GetCommentServlet:58 - GetCommentServlet_SQL : The column name  is not valid.
+2020-09-21 23:23:08 INFO  LoginFilter:131 - Logger here! btnAction at Filter :null
+2020-09-21 23:23:08 INFO  DispatchController:55 - DispatchController is called
+2020-09-21 23:23:08 INFO  DispatchController:59 - button in dispatchController :null
+2020-09-21 23:23:08 INFO  FirstTimeServlet:49 - FirstTimeServlet is called
+2020-09-21 23:23:08 INFO  FirstTimeServlet:73 - FirstTime - Has User
+2020-09-21 23:23:08 INFO  GetMyPostsServlet:49 - GetMyPostsServlet is called
+2020-09-21 23:23:10 INFO  LoginFilter:131 - Logger here! btnAction at Filter :View Post
+2020-09-21 23:23:10 INFO  DispatchController:55 - DispatchController is called
+2020-09-21 23:23:10 INFO  DispatchController:59 - button in dispatchController :View Post
+2020-09-21 23:23:10 INFO  ViewPostServlet:47 - ViewPostServlet is called
+2020-09-21 23:23:10 INFO  GetCommentServlet:45 - GetCommentServlet is called
+2020-09-21 23:24:17 INFO  LoginFilter:131 - Logger here! btnAction at Filter :Search Now!
+2020-09-21 23:24:17 INFO  DispatchController:55 - DispatchController is called
+2020-09-21 23:24:17 INFO  DispatchController:59 - button in dispatchController :Search Now!
+2020-09-21 23:24:17 INFO  SearchServlet:47 - SearchServlet is called
+2020-09-21 23:24:17 INFO  GetMyPostsServlet:49 - GetMyPostsServlet is called
+2020-09-21 23:24:19 INFO  LoginFilter:131 - Logger here! btnAction at Filter :View Post
+2020-09-21 23:24:19 INFO  DispatchController:55 - DispatchController is called
+2020-09-21 23:24:19 INFO  DispatchController:59 - button in dispatchController :View Post
+2020-09-21 23:24:19 INFO  ViewPostServlet:47 - ViewPostServlet is called
+2020-09-21 23:24:19 INFO  GetCommentServlet:45 - GetCommentServlet is called
+2020-09-21 23:24:38 INFO  LoginFilter:131 - Logger here! btnAction at Filter :Search Now!
+2020-09-21 23:24:38 INFO  DispatchController:55 - DispatchController is called
+2020-09-21 23:24:38 INFO  DispatchController:59 - button in dispatchController :Search Now!
+2020-09-21 23:24:38 INFO  SearchServlet:47 - SearchServlet is called
+2020-09-21 23:24:38 INFO  GetMyPostsServlet:49 - GetMyPostsServlet is called
+2020-09-21 23:24:39 INFO  LoginFilter:131 - Logger here! btnAction at Filter :View Post
+2020-09-21 23:24:39 INFO  DispatchController:55 - DispatchController is called
+2020-09-21 23:24:39 INFO  DispatchController:59 - button in dispatchController :View Post
+2020-09-21 23:24:39 INFO  ViewPostServlet:47 - ViewPostServlet is called
+2020-09-21 23:24:39 INFO  GetCommentServlet:45 - GetCommentServlet is called
+2020-09-21 23:25:54 INFO  LoginFilter:131 - Logger here! btnAction at Filter :Search Now!
+2020-09-21 23:25:54 INFO  DispatchController:55 - DispatchController is called
+2020-09-21 23:25:54 INFO  DispatchController:59 - button in dispatchController :Search Now!
+2020-09-21 23:25:54 INFO  SearchServlet:47 - SearchServlet is called
+2020-09-21 23:25:54 INFO  GetMyPostsServlet:49 - GetMyPostsServlet is called
+2020-09-21 23:25:55 INFO  LoginFilter:131 - Logger here! btnAction at Filter :View Post
+2020-09-21 23:25:55 INFO  DispatchController:55 - DispatchController is called
+2020-09-21 23:25:55 INFO  DispatchController:59 - button in dispatchController :View Post
+2020-09-21 23:25:55 INFO  ViewPostServlet:47 - ViewPostServlet is called
+2020-09-21 23:25:55 INFO  GetCommentServlet:45 - GetCommentServlet is called
+2020-09-21 23:26:26 INFO  LoginFilter:131 - Logger here! btnAction at Filter :Search Now!
+2020-09-21 23:26:26 INFO  DispatchController:55 - DispatchController is called
+2020-09-21 23:26:26 INFO  DispatchController:59 - button in dispatchController :Search Now!
+2020-09-21 23:26:26 INFO  SearchServlet:47 - SearchServlet is called
+2020-09-21 23:26:26 INFO  GetMyPostsServlet:49 - GetMyPostsServlet is called
+2020-09-21 23:26:27 INFO  LoginFilter:131 - Logger here! btnAction at Filter :View Post
+2020-09-21 23:26:27 INFO  DispatchController:55 - DispatchController is called
+2020-09-21 23:26:27 INFO  DispatchController:59 - button in dispatchController :View Post
+2020-09-21 23:26:27 INFO  ViewPostServlet:47 - ViewPostServlet is called
+2020-09-21 23:26:27 INFO  GetCommentServlet:45 - GetCommentServlet is called
+2020-09-21 23:26:44 INFO  LoginFilter:131 - Logger here! btnAction at Filter :Search Now!
+2020-09-21 23:26:44 INFO  DispatchController:55 - DispatchController is called
+2020-09-21 23:26:44 INFO  DispatchController:59 - button in dispatchController :Search Now!
+2020-09-21 23:26:44 INFO  SearchServlet:47 - SearchServlet is called
+2020-09-21 23:26:44 INFO  GetMyPostsServlet:49 - GetMyPostsServlet is called
+2020-09-21 23:26:46 INFO  LoginFilter:131 - Logger here! btnAction at Filter :View Post
+2020-09-21 23:26:46 INFO  DispatchController:55 - DispatchController is called
+2020-09-21 23:26:46 INFO  DispatchController:59 - button in dispatchController :View Post
+2020-09-21 23:26:46 INFO  ViewPostServlet:47 - ViewPostServlet is called
+2020-09-21 23:26:46 INFO  GetCommentServlet:45 - GetCommentServlet is called
+2020-09-21 23:26:53 INFO  LoginFilter:131 - Logger here! btnAction at Filter :Log out
+2020-09-21 23:26:53 INFO  DispatchController:55 - DispatchController is called
+2020-09-21 23:26:53 INFO  DispatchController:59 - button in dispatchController :Log out
+2020-09-21 23:26:53 INFO  LogoutServlet:45 - LogoutServlet is called
+2020-09-21 23:27:01 INFO  LoginFilter:131 - Logger here! btnAction at Filter :Login now!
+2020-09-21 23:27:01 INFO  DispatchController:55 - DispatchController is called
+2020-09-21 23:27:01 INFO  DispatchController:59 - button in dispatchController :Login now!
+2020-09-21 23:27:01 INFO  LoginServlet:53 - LoginServlet is called
+2020-09-21 23:27:01 INFO  GetMyPostsServlet:49 - GetMyPostsServlet is called
+2020-09-21 23:27:08 INFO  LoginFilter:131 - Logger here! btnAction at Filter :Search Now!
+2020-09-21 23:27:08 INFO  DispatchController:55 - DispatchController is called
+2020-09-21 23:27:08 INFO  DispatchController:59 - button in dispatchController :Search Now!
+2020-09-21 23:27:08 INFO  SearchServlet:47 - SearchServlet is called
+2020-09-21 23:27:08 INFO  SearchServlet:56 - Search Value : covid
+2020-09-21 23:27:09 INFO  LoginFilter:131 - Logger here! btnAction at Filter :View Post
+2020-09-21 23:27:09 INFO  DispatchController:55 - DispatchController is called
+2020-09-21 23:27:09 INFO  DispatchController:59 - button in dispatchController :View Post
+2020-09-21 23:27:09 INFO  ViewPostServlet:47 - ViewPostServlet is called
+2020-09-21 23:27:09 INFO  GetCommentServlet:45 - GetCommentServlet is called
+2020-09-21 23:27:36 INFO  LoginFilter:131 - Logger here! btnAction at Filter :Search Now!
+2020-09-21 23:27:36 INFO  DispatchController:55 - DispatchController is called
+2020-09-21 23:27:36 INFO  DispatchController:59 - button in dispatchController :Search Now!
+2020-09-21 23:27:36 INFO  SearchServlet:47 - SearchServlet is called
+2020-09-21 23:27:36 INFO  GetMyPostsServlet:49 - GetMyPostsServlet is called
+2020-09-21 23:27:38 INFO  LoginFilter:131 - Logger here! btnAction at Filter :Search Now!
+2020-09-21 23:27:38 INFO  DispatchController:55 - DispatchController is called
+2020-09-21 23:27:38 INFO  DispatchController:59 - button in dispatchController :Search Now!
+2020-09-21 23:27:38 INFO  SearchServlet:47 - SearchServlet is called
+2020-09-21 23:27:38 INFO  SearchServlet:56 - Search Value : c
+2020-09-21 23:27:39 INFO  LoginFilter:131 - Logger here! btnAction at Filter :Search Now!
+2020-09-21 23:27:39 INFO  DispatchController:55 - DispatchController is called
+2020-09-21 23:27:39 INFO  DispatchController:59 - button in dispatchController :Search Now!
+2020-09-21 23:27:39 INFO  SearchServlet:47 - SearchServlet is called
+2020-09-21 23:27:39 INFO  SearchServlet:56 - Search Value : c
+2020-09-21 23:27:40 INFO  LoginFilter:131 - Logger here! btnAction at Filter :View Post
+2020-09-21 23:27:40 INFO  DispatchController:55 - DispatchController is called
+2020-09-21 23:27:40 INFO  DispatchController:59 - button in dispatchController :View Post
+2020-09-21 23:27:40 INFO  ViewPostServlet:47 - ViewPostServlet is called
+2020-09-21 23:27:40 INFO  GetCommentServlet:45 - GetCommentServlet is called
+2020-09-21 23:28:43 INFO  LoginFilter:131 - Logger here! btnAction at Filter :Search Now!
+2020-09-21 23:28:43 INFO  DispatchController:55 - DispatchController is called
+2020-09-21 23:28:43 INFO  DispatchController:59 - button in dispatchController :Search Now!
+2020-09-21 23:28:43 INFO  SearchServlet:47 - SearchServlet is called
+2020-09-21 23:28:43 INFO  SearchServlet:56 - Search Value : c
+2020-09-21 23:28:44 INFO  LoginFilter:131 - Logger here! btnAction at Filter :Search Now!
+2020-09-21 23:28:44 INFO  DispatchController:55 - DispatchController is called
+2020-09-21 23:28:44 INFO  DispatchController:59 - button in dispatchController :Search Now!
+2020-09-21 23:28:44 INFO  SearchServlet:47 - SearchServlet is called
+2020-09-21 23:28:44 INFO  SearchServlet:56 - Search Value : c
+2020-09-21 23:28:45 INFO  LoginFilter:131 - Logger here! btnAction at Filter :View Post
+2020-09-21 23:28:45 INFO  DispatchController:55 - DispatchController is called
+2020-09-21 23:28:45 INFO  DispatchController:59 - button in dispatchController :View Post
+2020-09-21 23:28:45 INFO  ViewPostServlet:47 - ViewPostServlet is called
+2020-09-21 23:28:45 INFO  GetCommentServlet:45 - GetCommentServlet is called
+2020-09-21 23:28:52 INFO  LoginFilter:131 - Logger here! btnAction at Filter :null
+2020-09-21 23:28:52 INFO  DispatchController:55 - DispatchController is called
+2020-09-21 23:28:52 INFO  DispatchController:59 - button in dispatchController :null
+2020-09-21 23:28:52 INFO  FirstTimeServlet:49 - FirstTimeServlet is called
+2020-09-21 23:28:52 INFO  FirstTimeServlet:73 - FirstTime - Has User
+2020-09-21 23:28:52 INFO  GetMyPostsServlet:49 - GetMyPostsServlet is called
+2020-09-21 23:28:57 INFO  LoginFilter:131 - Logger here! btnAction at Filter :Search Now!
+2020-09-21 23:28:57 INFO  DispatchController:55 - DispatchController is called
+2020-09-21 23:28:57 INFO  DispatchController:59 - button in dispatchController :Search Now!
+2020-09-21 23:28:57 INFO  SearchServlet:47 - SearchServlet is called
+2020-09-21 23:28:57 INFO  GetMyPostsServlet:49 - GetMyPostsServlet is called
+2020-09-21 23:28:59 INFO  LoginFilter:131 - Logger here! btnAction at Filter :View Post
+2020-09-21 23:28:59 INFO  DispatchController:55 - DispatchController is called
+2020-09-21 23:28:59 INFO  DispatchController:59 - button in dispatchController :View Post
+2020-09-21 23:28:59 INFO  ViewPostServlet:47 - ViewPostServlet is called
+2020-09-21 23:28:59 INFO  GetCommentServlet:45 - GetCommentServlet is called
+2020-09-21 23:29:02 INFO  LoginFilter:131 - Logger here! btnAction at Filter :Get my post
+2020-09-21 23:29:02 INFO  DispatchController:55 - DispatchController is called
+2020-09-21 23:29:02 INFO  DispatchController:59 - button in dispatchController :Get my post
+2020-09-21 23:29:02 INFO  GetMyPostsServlet:49 - GetMyPostsServlet is called
+2020-09-21 23:29:04 INFO  LoginFilter:131 - Logger here! btnAction at Filter :View Post
+2020-09-21 23:29:04 INFO  DispatchController:55 - DispatchController is called
+2020-09-21 23:29:04 INFO  DispatchController:59 - button in dispatchController :View Post
+2020-09-21 23:29:04 INFO  ViewPostServlet:47 - ViewPostServlet is called
+2020-09-21 23:29:04 INFO  GetCommentServlet:45 - GetCommentServlet is called
+2020-09-21 23:43:48 INFO  LoginFilter:131 - Logger here! btnAction at Filter :null
+2020-09-21 23:43:48 INFO  DispatchController:55 - DispatchController is called
+2020-09-21 23:43:48 INFO  DispatchController:59 - button in dispatchController :null
+2020-09-21 23:43:48 INFO  FirstTimeServlet:49 - FirstTimeServlet is called
+2020-09-21 23:43:59 INFO  LoginFilter:131 - Logger here! btnAction at Filter :Login now!
+2020-09-21 23:43:59 INFO  DispatchController:55 - DispatchController is called
+2020-09-21 23:43:59 INFO  DispatchController:59 - button in dispatchController :Login now!
+2020-09-21 23:43:59 INFO  LoginServlet:53 - LoginServlet is called
+2020-09-21 23:43:59 INFO  GetMyPostsServlet:49 - GetMyPostsServlet is called
+2020-09-21 23:44:01 INFO  LoginFilter:131 - Logger here! btnAction at Filter :View Post
+2020-09-21 23:44:01 INFO  DispatchController:55 - DispatchController is called
+2020-09-21 23:44:01 INFO  DispatchController:59 - button in dispatchController :View Post
+2020-09-21 23:44:01 INFO  ViewPostServlet:47 - ViewPostServlet is called
+2020-09-21 23:44:01 INFO  GetCommentServlet:45 - GetCommentServlet is called
+2020-09-21 23:44:05 INFO  LoginFilter:131 - Logger here! btnAction at Filter :Get my post
+2020-09-21 23:44:05 INFO  DispatchController:55 - DispatchController is called
+2020-09-21 23:44:05 INFO  DispatchController:59 - button in dispatchController :Get my post
+2020-09-21 23:44:05 INFO  GetMyPostsServlet:49 - GetMyPostsServlet is called
+2020-09-21 23:44:08 INFO  LoginFilter:131 - Logger here! btnAction at Filter :View Post
+2020-09-21 23:44:08 INFO  DispatchController:55 - DispatchController is called
+2020-09-21 23:44:08 INFO  DispatchController:59 - button in dispatchController :View Post
+2020-09-21 23:44:08 INFO  ViewPostServlet:47 - ViewPostServlet is called
+2020-09-21 23:44:08 INFO  GetCommentServlet:45 - GetCommentServlet is called
+2020-09-21 23:44:11 INFO  LoginFilter:131 - Logger here! btnAction at Filter :Get my post
+2020-09-21 23:44:11 INFO  DispatchController:55 - DispatchController is called
+2020-09-21 23:44:11 INFO  DispatchController:59 - button in dispatchController :Get my post
+2020-09-21 23:44:11 INFO  GetMyPostsServlet:49 - GetMyPostsServlet is called
+2020-09-21 23:44:12 INFO  LoginFilter:131 - Logger here! btnAction at Filter :View Post
+2020-09-21 23:44:12 INFO  DispatchController:55 - DispatchController is called
+2020-09-21 23:44:12 INFO  DispatchController:59 - button in dispatchController :View Post
+2020-09-21 23:44:12 INFO  ViewPostServlet:47 - ViewPostServlet is called
+2020-09-21 23:44:12 INFO  GetCommentServlet:45 - GetCommentServlet is called
+2020-09-21 23:44:17 INFO  LoginFilter:131 - Logger here! btnAction at Filter :Get my post
+2020-09-21 23:44:17 INFO  DispatchController:55 - DispatchController is called
+2020-09-21 23:44:17 INFO  DispatchController:59 - button in dispatchController :Get my post
+2020-09-21 23:44:17 INFO  GetMyPostsServlet:49 - GetMyPostsServlet is called
+2020-09-21 23:44:19 INFO  LoginFilter:131 - Logger here! btnAction at Filter :View Post
+2020-09-21 23:44:19 INFO  DispatchController:55 - DispatchController is called
+2020-09-21 23:44:19 INFO  DispatchController:59 - button in dispatchController :View Post
+2020-09-21 23:44:19 INFO  ViewPostServlet:47 - ViewPostServlet is called
+2020-09-21 23:44:19 INFO  GetCommentServlet:45 - GetCommentServlet is called
+2020-09-21 23:44:20 INFO  LoginFilter:131 - Logger here! btnAction at Filter :Get my post
+2020-09-21 23:44:20 INFO  DispatchController:55 - DispatchController is called
+2020-09-21 23:44:20 INFO  DispatchController:59 - button in dispatchController :Get my post
+2020-09-21 23:44:20 INFO  GetMyPostsServlet:49 - GetMyPostsServlet is called
+2020-09-21 23:44:22 INFO  LoginFilter:131 - Logger here! btnAction at Filter :Search Now!
+2020-09-21 23:44:22 INFO  DispatchController:55 - DispatchController is called
+2020-09-21 23:44:22 INFO  DispatchController:59 - button in dispatchController :Search Now!
+2020-09-21 23:44:22 INFO  SearchServlet:47 - SearchServlet is called
+2020-09-21 23:44:22 INFO  SearchServlet:56 - Search Value : c
+2020-09-21 23:44:23 INFO  LoginFilter:131 - Logger here! btnAction at Filter :Search Now!
+2020-09-21 23:44:23 INFO  DispatchController:55 - DispatchController is called
+2020-09-21 23:44:23 INFO  DispatchController:59 - button in dispatchController :Search Now!
+2020-09-21 23:44:23 INFO  SearchServlet:47 - SearchServlet is called
+2020-09-21 23:44:23 INFO  SearchServlet:56 - Search Value : c
+2020-09-21 23:44:24 INFO  LoginFilter:131 - Logger here! btnAction at Filter :View Post
+2020-09-21 23:44:24 INFO  DispatchController:55 - DispatchController is called
+2020-09-21 23:44:24 INFO  DispatchController:59 - button in dispatchController :View Post
+2020-09-21 23:44:24 INFO  ViewPostServlet:47 - ViewPostServlet is called
+2020-09-21 23:44:24 INFO  GetCommentServlet:45 - GetCommentServlet is called
+2020-09-21 23:44:51 INFO  LoginFilter:131 - Logger here! btnAction at Filter :View Post
+2020-09-21 23:44:51 INFO  DispatchController:55 - DispatchController is called
+2020-09-21 23:44:51 INFO  DispatchController:59 - button in dispatchController :View Post
+2020-09-21 23:44:51 INFO  ViewPostServlet:47 - ViewPostServlet is called
+2020-09-21 23:44:51 INFO  GetCommentServlet:45 - GetCommentServlet is called
+2020-09-21 23:45:46 INFO  LoginFilter:131 - Logger here! btnAction at Filter :Log out
+2020-09-21 23:45:46 INFO  DispatchController:55 - DispatchController is called
+2020-09-21 23:45:46 INFO  DispatchController:59 - button in dispatchController :Log out
+2020-09-21 23:45:46 INFO  LogoutServlet:45 - LogoutServlet is called
