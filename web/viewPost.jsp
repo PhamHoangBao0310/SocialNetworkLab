@@ -31,7 +31,7 @@
         </nav>
 
 
-        <!--Delete Comment Confirmation -->
+        <!--Delete Comment Confirmation Modal-->
         <div class="modal" id="DeleteConfirmationModal">
             <div class="modal-dialog">
                 <div class="modal-content">
