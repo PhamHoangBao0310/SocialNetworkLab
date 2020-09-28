@@ -161,7 +161,6 @@ public class LoginFilter implements Filter {
                     default:
                         break;
                 }
-                logger.debug("mustlogin " + mustLogin);
                 if (mustLogin) {
                     logger.debug("Must login");
                     HttpSession session = req.getSession(false);
