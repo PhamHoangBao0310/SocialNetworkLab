@@ -26,6 +26,7 @@ public class CodeHandlerServlet extends HttpServlet {
     static Logger logger = Logger.getLogger(CodeHandlerServlet.class);
     private final String VERIFY_PAGE = "verify.jsp";
     private final String ERROR_PAGE ="error.html";
+    private final String VERIFY_ERROR_PAGE = "verifyError.html";
     /**
      * Processes requests for both HTTP <code>GET</code> and <code>POST</code>
      * methods.
@@ -62,6 +63,7 @@ public class CodeHandlerServlet extends HttpServlet {
                 url = VERIFY_PAGE;
             } else {
                 logger.debug("Error in verification");
+                url = VERIFY_ERROR_PAGE;
             }
         } catch (Exception ex) {
             logger.error("CodeHandlerServlet_Exception : " + ex.getMessage());

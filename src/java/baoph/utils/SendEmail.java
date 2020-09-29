@@ -27,7 +27,7 @@ public class SendEmail {
     public static String getRandom() {
         Random rnd = new Random();
         int number = rnd.nextInt(999999);
-        System.out.println(number);
+        logger.info(number);
         return String.format("%06d", number);
     }
 
@@ -65,6 +65,7 @@ public class SendEmail {
                     + "Please verify your account by using this code: " + code);
             // transport message
             Transport.send(mess);
+            logger.debug("Send mail successfully");
             test = true;
         } catch (Exception e) {
            logger.error("SendEmail_Exception :_" + e.getMessage());
