@@ -27,7 +27,6 @@ public class DispatchController extends HttpServlet {
     private final String ERROR_PAGE = "error.html";
     private final String LOGIN_PAGE = "login.html";
     private final String REGISTER_PAGE = "register.html";
-    private final String INVALID_PAGE = "invalid.html";
     private final String REGISTER_CONTROLLER = "RegisterServlet";
     private final String LOGOUT_CONTROLLER = "LogoutServlet";
     private final String FIRST_TIME_CONTROLLER = "FirstTimeServlet";
