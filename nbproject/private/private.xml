@@ -3,8 +3,12 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/E:/FPTdocument/TERM5/LAB231/Code/socialnetwork/src/java/baoph/listener/ContextServletListener.java</file>
-            <file>file:/E:/FPTdocument/TERM5/LAB231/Code/socialnetwork/src/java/baoph/servlet/LogoutServlet.java</file>
+            <file>file:/E:/FPTdocument/TERM5/LAB231/Code/socialnetwork/src/java/baoph/servlet/ViewPostServlet.java</file>
+            <file>file:/E:/FPTdocument/TERM5/LAB231/Code/socialnetwork/src/java/baoph/servlet/VerifyServlet.java</file>
+            <file>file:/E:/FPTdocument/TERM5/LAB231/Code/socialnetwork/src/java/baoph/servlet/CodeHandlerServlet.java</file>
+            <file>file:/E:/FPTdocument/TERM5/LAB231/Code/socialnetwork/src/java/baoph/servlet/CreateArticleServlet.java</file>
+            <file>file:/E:/FPTdocument/TERM5/LAB231/Code/socialnetwork/web/verify.jsp</file>
+            <file>file:/E:/FPTdocument/TERM5/LAB231/Code/socialnetwork/src/java/baoph/servlet/DispatchController.java</file>
         </group>
     </open-files>
 </project-private>

@@ -14,17 +14,14 @@ import java.io.Serializable;
 public class TblAccountLoginError implements Serializable {
 
     private String userNotFoundError;
-    private String userIsNotActiveError;
 
     public TblAccountLoginError() {
     }
 
-    public TblAccountLoginError(String userNotFoundError, String userIsNotActiveError) {
+    public TblAccountLoginError(String userNotFoundError) {
         this.userNotFoundError = userNotFoundError;
-        this.userIsNotActiveError = userIsNotActiveError;
     }
 
-    
     /**
      * @return the userNotFoundError
      */
@@ -38,20 +35,5 @@ public class TblAccountLoginError implements Serializable {
     public void setUserNotFoundError(String userNotFoundError) {
         this.userNotFoundError = userNotFoundError;
     }
-
-    /**
-     * @return the userIsNotActiveError
-     */
-    public String getUserIsNotActiveError() {
-        return userIsNotActiveError;
-    }
-
-    /**
-     * @param userIsNotActiveError the userIsNotActiveError to set
-     */
-    public void setUserIsNotActiveError(String userIsNotActiveError) {
-        this.userIsNotActiveError = userIsNotActiveError;
-    }
-
 
 }

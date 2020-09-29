@@ -72,11 +72,15 @@ public class FirstTimeServlet extends HttpServlet {
                 TblAccountDTO dto = dao.login(userEmail, SHAHelpers.convertToSHAString(userPassword));
                 // check login is success or not
                 if (dto != null) { // Login OK 
-                    HttpSession session = request.getSession();
-                    // set attribute User to session
-                    session.setAttribute("User", dto);
-                    url = GET_MY_POST_CONTROLLER;
-                    logger.debug("FirstTime - Has User");
+                    if (dto.getStatus() == 1) {
+                        HttpSession session = request.getSession();
+                        // set attribute User to session
+                        session.setAttribute("User", dto);
+                        url = GET_MY_POST_CONTROLLER;
+                        logger.debug("FirstTime - Has User");
+                    } else {
+                        logger.debug("User is not activated");
+                    }
                 }
             } else {
                 logger.debug("No cookies");

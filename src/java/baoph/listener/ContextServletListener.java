@@ -28,7 +28,7 @@ public class ContextServletListener implements ServletContextListener {
 //        System.out.println("Deploying........");
         ServletContext context = sce.getServletContext();
 //        System.out.println(context.getRealPath("/"));
-        context.setAttribute("realPath", context.getRealPath("/"));
+//        context.setAttribute("realPath", context.getRealPath("/"));
         // create pattern layout
         PatternLayout layout = new PatternLayout();
         // Create coversion pattern 

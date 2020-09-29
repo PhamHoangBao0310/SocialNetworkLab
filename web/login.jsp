@@ -53,11 +53,6 @@
                         <strong>Hey!</strong> ${errors.userNotFoundError}
                     </div>
                 </c:if> 
-                <c:if test="${not empty errors.userIsNotActiveError}">
-                    <div class="alert alert-warning">
-                        <strong>Hey!</strong> ${errors.userIsNotActiveError}
-                    </div>
-                </c:if> 
                 <div class="form-group">
                     <input type="submit" class="btn btn-primary btn-block" name="btnAction" value="Login now!" /> <br>
                 </div>             
