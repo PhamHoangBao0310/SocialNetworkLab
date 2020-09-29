@@ -83,7 +83,8 @@ public class CreateArticleServlet extends HttpServlet {
                         imageLink = imageLink + "image/" + filename + " ";
 //                        System.out.println("path : " + filename);
                         // create image path to write image
-                        String realPath = getServletContext().getRealPath("/") + "image\\" + filename;
+                        String contextPath = getServletContext().getRealPath("/");
+                        String realPath = contextPath + "image\\" + filename;
 //                        System.out.println("RPath " + realPath);
                         // Write image by inputstream and outputstream
                         try (InputStream fileInput = part.getInputStream()) {

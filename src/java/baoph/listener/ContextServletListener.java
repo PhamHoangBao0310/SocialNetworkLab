@@ -25,11 +25,10 @@ public class ContextServletListener implements ServletContextListener {
 
     @Override
     public void contextInitialized(ServletContextEvent sce) {
-        System.out.println("Deploying........");
+//        System.out.println("Deploying........");
         ServletContext context = sce.getServletContext();
-        System.out.println(context.getRealPath("/"));
+//        System.out.println(context.getRealPath("/"));
         context.setAttribute("realPath", context.getRealPath("/"));
-
         // create pattern layout
         PatternLayout layout = new PatternLayout();
         // Create coversion pattern 
@@ -68,6 +67,6 @@ public class ContextServletListener implements ServletContextListener {
 
     @Override
     public void contextDestroyed(ServletContextEvent sce) {
-        System.out.println("context destroyed ....");
+//        System.out.println("context destroyed ....");
     }
 }
