@@ -64,8 +64,7 @@ public class LogoutServlet extends HttpServlet {
             }
             url = LOGIN_PAGE;
         } finally {
-            RequestDispatcher rd = request.getRequestDispatcher(url);
-            rd.forward(request, response);
+            response.sendRedirect(url);
             out.close();
         }
     }
