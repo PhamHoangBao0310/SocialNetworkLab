@@ -29,21 +29,22 @@ public class TblArticleDAO implements Serializable {
     public TblArticleDAO() {
     }
 
-    public List<TblArticleDTO> searchArticle(String text, int index) throws SQLException, NamingException {
+    public List<TblArticleDTO> searchArticle(String text, int index, int elements) throws SQLException, NamingException {
         List<TblArticleDTO> result = null;
         try {
             String sql = "Select PostID , Email , Date , Title , Status "
                     + "from tbl_Article "
                     + "where (Title like ?) and (Status = ?) "
                     + "order by Date DESC "
-                    + "offset ? rows fetch next 2 rows only";
+                    + "offset ? rows fetch next ? rows only";
             con = DBHelpers.makeConnection();
             if (con != null) {
                 stm = con.prepareStatement(sql);
                 stm.setNString(1, "%" + text + "%");
                 stm.setBoolean(2, true);
-                stm.setInt(3, (index - 1) * 2);
-
+                stm.setInt(3, (index - 1) * elements);
+                stm.setInt(4, elements);
+                
                 rs = stm.executeQuery();
                 result = new ArrayList<>();
                 while (rs.next()) {

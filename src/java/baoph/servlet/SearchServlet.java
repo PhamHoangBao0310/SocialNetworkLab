@@ -29,7 +29,8 @@ public class SearchServlet extends HttpServlet {
     private final String ERROR_PAGE = "error.html";
     private final String HOME_PAGE = "home.jsp";
     private final String GET_MY_POST_CONTROLLER = "GetMyPostsServlet";
-    private final int ELEMENT_IN_PAGE = 2;
+    // If you want to change the number of element in page using this element
+    private final int ELEMENT_IN_PAGE = 3;
 
     /**
      * Processes requests for both HTTP <code>GET</code> and <code>POST</code>
@@ -58,7 +59,7 @@ public class SearchServlet extends HttpServlet {
                 TblArticleDAO dao = new TblArticleDAO();
                 int index = Integer.parseInt(indexString);
                 // get article list
-                List<TblArticleDTO> list = dao.searchArticle(txtSearch, index);
+                List<TblArticleDTO> list = dao.searchArticle(txtSearch, index, ELEMENT_IN_PAGE);
                 // get number of article
                 int numOfPage = dao.countArticle(txtSearch);
                 // return the number of paging

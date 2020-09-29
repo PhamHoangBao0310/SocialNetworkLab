@@ -49,7 +49,7 @@ public class ContextServletListener implements ServletContextListener {
         // get curent date
         String timeStamp = new SimpleDateFormat("yyyy-MM-dd").format(Calendar.getInstance().getTime());
         // set log file name 
-        fileAppender.setFile("E:/FPTdocument/TERM5/LAB231/Code/socialnetwork/logs/socialnetwork-" + timeStamp + ".log");
+        fileAppender.setFile("D:/socialnetwork-" + timeStamp + ".log");
         // set layout for file appender
         fileAppender.setLayout(layout);
         // activate file appender
