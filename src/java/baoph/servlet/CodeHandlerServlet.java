@@ -61,7 +61,7 @@ public class CodeHandlerServlet extends HttpServlet {
                 session.setAttribute("UserVerify", dto);
                 url = VERIFY_PAGE;
             } else {
-                System.out.println("Error in verification");
+                logger.debug("Error in verification");
             }
         } catch (Exception ex) {
             logger.error("CodeHandlerServlet_Exception : " + ex.getMessage());

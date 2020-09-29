@@ -11,7 +11,6 @@ import java.io.IOException;
 import java.io.PrintWriter;
 import java.sql.SQLException;
 import java.util.List;
-import java.util.logging.Level;
 import javax.naming.NamingException;
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
@@ -29,7 +28,6 @@ public class GetCommentServlet extends HttpServlet {
     static Logger logger = Logger.getLogger(GetCommentServlet.class);
     private final String ERROR_PAGE = "error.html";
     private final String GET_EMOTION_CONTROLLER = "GetEmotionServlet";
-    private final String VIEW_POST_PAGE = "viewPost.jsp";
     /**
      * Processes requests for both HTTP <code>GET</code> and <code>POST</code>
      * methods.

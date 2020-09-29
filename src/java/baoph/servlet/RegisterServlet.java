@@ -33,7 +33,6 @@ public class RegisterServlet extends HttpServlet {
     private final String ERROR_PAGE = "error.html";
     private final String LOGIN_PAGE = "login.html";
     private final String REGISTER_PAGE_JSP = "register.jsp";
-    private final String REGISTER_PAGE = "register.html";
 
     /**
      * Processes requests for both HTTP <code>GET</code> and <code>POST</code>

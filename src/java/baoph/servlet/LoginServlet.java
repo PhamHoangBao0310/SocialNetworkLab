@@ -36,7 +36,6 @@ public class LoginServlet extends HttpServlet {
     private final String GET_MY_POSTS_CONTROLLER = "GetMyPostsServlet";
     private final String ERROR_PAGE = "error.html";
     private final int IS_ACTIVE = 1;
-    private final String VERIFY_PAGE = "verify.jsp";
     private final String CODE_HANDLER_CONTROLLER = "CodeHandlerServlet";
 
     /**

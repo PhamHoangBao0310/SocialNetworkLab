@@ -29,7 +29,6 @@ import org.apache.log4j.Logger;
 public class CreateCommentServlet extends HttpServlet {
 
     static Logger logger = Logger.getLogger(CreateCommentServlet.class);
-    private String ERROR_PAGE = "error.html";
 
     /**
      * Processes requests for both HTTP <code>GET</code> and <code>POST</code>
