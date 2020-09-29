@@ -28,7 +28,8 @@ import org.apache.log4j.Logger;
 public class CreateEmotionServlet extends HttpServlet {
 
     static Logger logger = Logger.getLogger(CreateEmotionServlet.class);
-
+    private final int LIKE = 1;
+    private final int DISLIKE = 0;
     /**
      * Processes requests for both HTTP <code>GET</code> and <code>POST</code>
      * methods.
@@ -68,12 +69,12 @@ public class CreateEmotionServlet extends HttpServlet {
                 // Step 1: Delete current emotion record.
                 dao.deleteEmotion(Integer.parseInt(postID), useremail);
                 boolean result = false;
-                // Step 2: create new record to Database throug DAO(like is 1 and dislike is 0)
+                // Step 2: create new record to Database through DAO(like is 1 and dislike is 0)
                 if (emotionType.equals("like")) {
-                    result = dao.createEmotion(Integer.parseInt(postID), useremail, 1);
+                    result = dao.createEmotion(Integer.parseInt(postID), useremail, LIKE);
                 }
                 if (emotionType.equals("dislike")) {
-                    result = dao.createEmotion(Integer.parseInt(postID), useremail, 0);
+                    result = dao.createEmotion(Integer.parseInt(postID), useremail, DISLIKE);
                 }
                 // Step 3 :Check if create success
                 if (result) {

@@ -45,9 +45,9 @@ public class LoginFilter implements Filter {
 
     private void doBeforeProcessing(ServletRequest request, ServletResponse response)
             throws IOException, ServletException {
-        if (debug) {
-            log("LoginFilter:DoBeforeProcessing");
-        }
+//        if (debug) {
+//            log("LoginFilter:DoBeforeProcessing");
+//        }
 
         // Write code here to process the request and/or response before
         // the rest of the filter chain is invoked.
@@ -73,9 +73,9 @@ public class LoginFilter implements Filter {
 
     private void doAfterProcessing(ServletRequest request, ServletResponse response)
             throws IOException, ServletException {
-        if (debug) {
-            log("LoginFilter:DoAfterProcessing");
-        }
+//        if (debug) {
+//            log("LoginFilter:DoAfterProcessing");
+//        }
 
         // Write code here to process the request and/or response after
         // the rest of the filter chain is invoked.
@@ -109,9 +109,9 @@ public class LoginFilter implements Filter {
             FilterChain chain)
             throws IOException, ServletException {
 
-        if (debug) {
-            log("LoginFilter:doFilter()");
-        }
+//        if (debug) {
+//            log("LoginFilter:doFilter()");
+//        }
 
         doBeforeProcessing(request, response);
 
@@ -241,7 +241,7 @@ public class LoginFilter implements Filter {
         this.filterConfig = filterConfig;
         if (filterConfig != null) {
             if (debug) {
-                log("LoginFilter:Initializing filter");
+                logger.info("LoginFilter:Initializing filter");
             }
         }
     }
