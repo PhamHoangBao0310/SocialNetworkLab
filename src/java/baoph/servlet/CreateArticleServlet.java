@@ -69,12 +69,12 @@ public class CreateArticleServlet extends HttpServlet {
             int index = 1;
             // Loop in all parts from form and look up image part.
             for (Part part : request.getParts()) {
-                System.out.println("Part name : " + part.getName());
+//                System.out.println("Part name : " + part.getName());
                 // Check this part is file image
                 if (part.getSubmittedFileName() != null) {
                     // check is this image is empty or not
                     if (!part.getSubmittedFileName().trim().isEmpty()) {
-                        System.out.println("submitedFileName : " + part.getSubmittedFileName());
+//                        System.out.println("submitedFileName : " + part.getSubmittedFileName());
                         String timeStamp = new SimpleDateFormat("yyyyMMdd_HHmmss").format(Calendar.getInstance().getTime());
                         // create image file name
                         filename = useremail + timeStamp + "_" + index + ".jpg";
