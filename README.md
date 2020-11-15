@@ -15,5 +15,5 @@ the articles.
    - See the new notification when user comment or react.
  - Advances:
    - Using mail API to send email confirmation after account registration.
-   - Using Ajax for comment and react article.
+   - Using Ajax to comment and react article.
    
