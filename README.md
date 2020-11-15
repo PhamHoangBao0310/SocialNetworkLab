@@ -7,6 +7,7 @@ Lab231 in FPTU
 the articles.
 ### Description:
  - This website is developed with JSP and Servlet technology, designed with HTML , CSS , Javascript and Bootstrap.
+ - This project use Microsoft SQL Server.
  - User can do all of the following function:
    - Login , Register new account.
    - Post , update , delete and view articles.
